@@ -22,6 +22,7 @@ COPY toolchains/gcc-linaro-aarch64-elf /home/khadas/toolchains/gcc-linaro-aarch6
 COPY toolchains/gcc-linaro-aarch64-linux-gnu /home/khadas/toolchains/gcc-linaro-aarch64-linux-gnu
 COPY toolchains/gcc-linaro-aarch64-none-elf /home/khadas/toolchains/gcc-linaro-aarch64-none-elf
 COPY toolchains/gcc-linaro-arm-none-eabi /home/khadas/toolchains/gcc-linaro-arm-none-eabi
+COPY toolchains/gcc-arm-aarch64-none-linux-gnu /home/khadas/toolchains/gcc-arm-aarch64-none-linux-gnu
 
 USER khadas
 
