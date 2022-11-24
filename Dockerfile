@@ -22,7 +22,8 @@ ADD toolchains/gcc-linaro-aarch64-linux-gnu /home/khadas/toolchains/gcc-linaro-a
 ADD toolchains/gcc-linaro-aarch64-none-elf /home/khadas/toolchains/gcc-linaro-aarch64-none-elf
 ADD toolchains/gcc-linaro-arm-none-eabi /home/khadas/toolchains/gcc-linaro-arm-none-eabi
 ADD toolchains/gcc-arm-aarch64-none-linux-gnu /home/khadas/toolchains/gcc-arm-aarch64-none-linux-gnu
-
+ADD toolchains/gcc-arm-aarch64-none-linux-gnu-mainline /home/khadas/toolchains/gcc-arm-aarch64-none-linux-gnu-mainline
+ADD toolchains/gcc-riscv-none-embed /home/khadas/toolchains/gcc-riscv-none-embed
 
 USER khadas
 
